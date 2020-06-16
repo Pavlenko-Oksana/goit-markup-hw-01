@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <title>Document</title>
-</head>
+    
 <body>
     <header>
 
       <nav>
-        <a href="" >
-            Web Studio
+        <a href="#" >
+           Web Studio
         </a>
-        <ul>
-           <li><a href="#">Студия</a></li>
-           <li><a href="#">Портфолио</a></li>
-           <li><a href="#">Контакты</a></li>
-        </ul>
-
-        <ul>
-           <li><a href="info@devstudio.com">info@devstudio.com </a></li>
-           <li><a href="+380961111111">+38 096 111 11 11</a></li>
+        <ul class="site-nav">
+           <li><a href="#" >Студия</a></li>
+           <li><a href="#" >Портфолио</a></li>
+           <li><a href="#" >Контакты</a></li>
         </ul>
       </nav>
+
+      <address>
+        <ul>
+           <li><a href="mailto:info@devstudio.com" >info@devstudio.com </a></li>
+           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </address>
     </header>
 
-    <div>
-     <section>
+    
+     <section >
       <h1>Эффективные решения для вашего бизнеса</h1>
-      <a href="#">Заказать услугу</a>
+      <a href="#" >Заказать услугу</a>
      </section>
-    </div>
+
 
     <section>
 
@@ -61,15 +63,18 @@
 
     </section>
 
-    <section>
+    <section >
 
      <h2>Чем мы занимаемся</h2>
 
      <ul>
 
-      <li><a href="#"></a>Десктопные приложения</li>
-      <li><a href="#"></a>Мобильные приложения</li>
-      <li><a href="#"></a>Дизайнерские решения</li>
+      <li><img src="./images/img-business.png" alt="Ноутбук">
+        <a href="#" class="section-services">Десктопные приложения</a></li>
+      <li><img src="./images/box.png" alt="Мобильный телефон">
+        <a href="#" class="section-services">Мобильные приложения</a></li>
+      <li><img src="./images/img-insp.png" alt="Компьютер">
+        <a href="#" class="section-services">Дизайнерские решения</a></li>
 
      </ul>
 
@@ -79,47 +84,47 @@
       <h2>Наша команда</h2>
        <ul>
         <li>
-          <img src="./images/img1.png" alt=Фото/>  
-         <h3>John Smith</h3>
-         <h4>Product Designer</h4>
+          <img src="./images/img.png" alt="Николай Кучеренко" />  
+         <h3>Николай Кучеренко</h3>
+         <p>Product Designer</p>
          <ul>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Linkedln</li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Linkedln</a></li>
          </ul>
         </li>
         <li>
-            <img src="./images/img2.png" alt="Фото"/>
-            <h3>Marta Stewart</h3>
-            <h4>Frontend Developer</h4>
+            <img src="./images/img1.png" alt="Ольга Иванова"/>
+            <h3>Ольга Иванова</h3>
+            <p>Frontend Developer</p>
             <ul>
-               <li>Instagram</li>
-               <li>Twitter</li>
-               <li>Facebook</li>
-               <li>Linkedln</li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Linkedln</a></li>
             </ul>
            </li>
            <li>
-            <img src="./images/img3.png" alt="Фото"/>
-            <h3>Robert Jakis</h3>
-            <h4>Marketing</h4>
+            <img src="./images/img2.png" alt="Андрей Шевченко"/>
+            <h3>Андрей Шевченко</h3>
+            <p>Marketing</p>
             <ul>
-               <li>Instagram</li>
-               <li>Twitter</li>
-               <li>Facebook</li>
-               <li>Linkedln</li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Linkedln</a></li>
             </ul>
            </li>
            <li>
-            <img src="./images/img.png" alt="Фото"/>
-            <h3>Martin Doe</h3>
-            <h4>UI Designer</h4>
+            <img src="./images/img3.png" alt="Иван Николаев"/>
+            <h3>Иван Николаев</h3>
+            <p>UI Designer</p>
             <ul>
-               <li>Instagram</li>
-               <li>Twitter</li>
-               <li>Facebook</li>
-               <li>Linkedln</li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Linkedln</a></li>
             </ul>
            </li>
 
@@ -131,27 +136,36 @@
     <section>
         <h2>Постоянные клиенты</h2>
         <ul>
-            <li><a href="#" > <img src="./images/Client1.svg" alt=""> </a></li>
-            <li><a href="#" > <img src="./images/Client2.svg" alt=""> </a></li>
-            <li><a href="#" > <img src="./images/logo3.svg" alt=""> </a></li>
-            <li><a href="#" > <img src="./images/logo4.svg" alt=""> </a></li>
-            <li><a href="#" > <img src="./images/Client5.svg" alt=""> </a></li>
-            <li><a href="#" > <img  src="./images/logo6.svg" alt=""> </a></li>
+            <li><a href="#" > <img src="./images/Client1.svg" alt="TA AND CO"> </a></li>
+            <li><a href="#" > <img src="./images/Client2.svg" alt="Logo COMPANY"> </a></li>
+            <li><a href="#" > <img src="./images/Client3.svg" alt="COMPANY"> </a></li>
+            <li><a href="#" > <img src="./images/Client4.svg" alt="FOSTER PETETS"> </a></li>
+            <li><a href="#" > <img src="./images/Client5.svg" alt="BRAND"> </a></li>
+            <li><a href="#" > <img  src="./images/Client6.svg" alt="Company TAC LINE"> </a></li>
         </ul>
     </section>
 
     <footer>
-        <address>г. Киев, пр-т Леси Украинки, 26</address>
+      <a href="#" >
+       Web Studio
+     </a>
+       <address >
         <ul>
-            <li><a href="info@example.com">info@example.com</a> </li>
-            <li><a href="+380991111111">+38 099 111 11 11</a> </li>
+          <li>г. Киев, пр-т Леси Украинки, 26 </li>
+            <li><a href="mailto:info@example.com" >info@example.com</a> </li>
+            <li><a href="tel:+380991111111" >+38 099 111 11 11</a> </li>
         </ul>
+      </address>
+      <section>
+        <h2>присоединяйтесь</h2>
         <ul>
-            <li>Instagram</li>
-            <li>Twitter</li>
-            <li>Facebook</li>
-            <li>Linkedln</li>  
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Linkedln</a></li>
         </ul>
+      </section>
+        <p>2020 | Developed by GoIT Students </p>
     </footer>
 </body>
 </html>
